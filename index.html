@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File creator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📁 File creator</h1>
+<div class="subtitle">all files will autodownload when clicked</div>
+
+<div class="section">
+    <h2>🌐 Web</h2>
+    <div class="buttons">
+        <button onclick="createFile('html')"><span class="icon">📄</span> HTML</button>
+        <button onclick="createFile('css')"><span class="icon">🎨</span> CSS</button>
+        <button onclick="createFile('js')"><span class="icon">⚡</span> JS</button>
+        <button onclick="createFile('json')"><span class="icon">🗂️</span> JSON</button>
+    </div>
+</div>
+
+<div class="section">
+    <h2>💻 Programming</h2>
+    <div class="buttons">
+        <button onclick="createFile('py')"><span class="icon">🐍</span> PY</button>
+        <button onclick="createFile('cpp')"><span class="icon">➕</span> CPP</button>
+        <button onclick="createFile('cp')"><span class="icon">🧩</span> CP</button>
+        <button onclick="createFile('c')"><span class="icon">🔧</span> C</button>
+        <button onclick="createFile('cs')"><span class="icon">🟣</span> CS</button>
+    </div>
+</div>
+
+<div class="section">
+    <h2>📄 Other</h2>
+    <div class="buttons">
+        <button onclick="createFile('txt')"><span class="icon">📃</span> Blank</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
